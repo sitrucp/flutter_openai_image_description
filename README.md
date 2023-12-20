@@ -1,14 +1,13 @@
 # Flutter OpenAI Image Description App
 
-This is a simple Android Flutter app that uses OpenAI ChatGPT-4-Vision API to get descriptions of screenshots on mobile device. 
+This is a simple Android Flutter app that uses OpenAI ChatGPT-4-Vision API to get descriptions of images on mobile device. 
 
-For example, create screenshot of a Tweet chart or meme and send it to OpenAI to get a description or answer questions about the image contents. 
+For example, send screenshot of Tweet chart or meme to OpenAI to get a description or answer questions about the image. 
 
-Prompts and responses are saved in JSON file along with tokens used and estimated cost.
+Prompts, responses, datetime, tokens used and estimated cost are saved in JSON file. Can have more than one response per image.
 
-Rename lib/config_template.dart to config.dart template.
-
-You need to provide your own OpenAI API key. 
+* Rename lib/config_template.dart to config.dart template.
+* You need to provide your own OpenAI API key. 
 
 <strong>App screenshots</strong>
 
