@@ -30,3 +30,11 @@ Selected image prompt response 1 - can get more than response each with diffiren
 Selected image prompt response 2
 
 <img src="app_screenshots/response_2.jpg" alt="image prompt response 2" width="20%"/>
+
+## License
+
+This project is licensed under the [NAME HERE] License.
+
+## Acknowledgments
+
+ChatGPT-4-Turbo
