@@ -23,7 +23,7 @@ Selected image prompt - modify text prompt as desired, default to low resolution
 
 <img src="app_screenshots/prompt.jpg" alt="image prompt" width="20%"/>
 
-Selected image prompt response 1 - can get more than response each with diffirent prompt or resolution
+Selected image prompt response 1 - can get more than one response each with different prompt and/or resolution
 
 <img src="app_screenshots/response_1.jpg" alt="image prompt response 1" width="20%"/>
 
