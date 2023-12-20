@@ -13,16 +13,21 @@ You need to provide your own OpenAI API key.
 <strong>App screenshots</strong>
 
 Enter API Key - saved in JSON file in Android app folder
-![Enter API and select folder](app_screenshots/enter_api_key.jpg.png)
+
+<img src="app_screenshots/enter_api_key.jpg" alt="enter_api_key" width="20%"/>
 
 Selected folder image thumbnails - blue bordered images have at least one response
-![Enter API and select folder](app_screenshots/thumbnails.jpg)
+
+<img src="app_screenshots/thumbnails.jpg" alt="thumbnails" width="20%"/>
 
 Selected image prompt - modify text prompt as desired, default to low resolution (good enough for  most)
-![Enter API and select folder](app_screenshots/prompt.jpg.jpg.png)
+
+<img src="app_screenshots/prompt.jpg" alt="image prompt" width="20%"/>
 
 Selected image prompt response 1 - can get more than response each with diffirent prompt or resolution
-![Enter API and select folder](app_screenshots/response_2.jpg)
+
+<img src="app_screenshots/response_1.jpg" alt="image prompt response 1" width="20%"/>
 
 Selected image prompt response 2
-![Enter API and select folder](app_screenshots/response_2.jpg)
+
+<img src="app_screenshots/response_2.jpg" alt="image prompt response 2" width="20%"/>
