@@ -2,24 +2,22 @@
 
 This is a simple Flutter Android app that uses OpenAI ChatGPT-4-Vision API to get descriptions of images on mobile device. Use cases include:
 
-* Get a description of a photo.
-* Get insights from a screenshot of a chart eg line chart of real vs nominal hourly wages.
-* Get explanation from a screenshot of a meme visualization eg you've seen elf on a shelf, have you seen ... (vader on a tater).
+* Get a description of a photo
+* Get insights from a screenshot of a chart eg line chart of real vs nominal hourly wages
+* Get explanation from a screenshot of a meme visualization eg you've seen elf on a shelf, have you seen ... (vader on a tater)
 
-Persistent storage of response data in device app folder JSON file. Can have multiple different prompt and response for same image. Data stored:
+The app stores the following data in the app's device folder in a JSON file:
 
-* Prompt
-* Response
-* Response datetime
-* Tokens used
-* Estimated cost
+* Encrypted API key
+* Image file name
+* Device folder path
+* Prompt text
+* Response text
+* Response datetime string
+* Tokens used value
+* Estimated cost value
 
-View the code on <a href="https://github.com/sitrucp/flutter_openai_image_description">Github</a>.
-
-After opening the project in IDE with Flutter Android development environment setup:
-
-* Rename lib/config_template.dart to config.dart template.
-* You need to provide your own OpenAI API key. 
+You need to provide your own OpenAI API key which is entered in the app's Settings page.
 
 <strong>App screenshots</strong> (click to zoom in)
 
@@ -55,4 +53,4 @@ Selected image prompt response - copy, share or delete response
 
 ## Acknowledgments
 
-ChatGPT-4-Turbo
+ChatGPT-4
