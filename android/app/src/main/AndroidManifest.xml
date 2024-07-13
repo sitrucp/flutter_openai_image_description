@@ -1,13 +1,20 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.bcltd0940106.image_describe">
+    <!-- Devices running Android 13 (API level 33) or higher -->
     <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
-    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- Devices running Android 10 (API level 29) or lower -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+  android:maxSdkVersion="29"/>
+  <!-- android:requestLegacyExternalStorage="true" below is for devices running Android 10 (API level 29) or lower  -->
     <application
-        android:label="AI Describe"
+        android:label="AI Image Describe"
         android:name="${applicationName}"
         android:enableOnBackInvokedCallback="true"
+        android:requestLegacyExternalStorage="true" 
         android:icon="@mipmap/ic_launcher">
         <activity
-            android:name=".MainActivity"
+            android:name="io.flutter.embedding.android.FlutterActivity"
             android:exported="true"
             android:launchMode="singleTop"
             android:theme="@style/LaunchTheme"
