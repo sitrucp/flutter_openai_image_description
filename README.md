@@ -23,25 +23,35 @@ After opening the project in IDE with Flutter Android development environment se
 
 <strong>App screenshots</strong> (click to zoom in)
 
+Allow Permissions - allow app to access device folders
+
+<img src="app_screenshots/frame_desc_image/010-permissions_frame_desc.png" alt="enter_api_key" width="20%"/>
+
 Enter API Key - saved in JSON file in Android app folder
 
-<img src="app_screenshots/enter_api_key.jpg" alt="enter_api_key" width="20%"/>
+<img src="app_screenshots/frame_desc_image/020-enter api key_frame_desc.png" alt="enter_api_key" width="20%"/>
 
-Selected folder image thumbnails - blue bordered images have at least one response
+Select folder - select any accessible folder that contains images
 
-<img src="app_screenshots/thumbnails.jpg" alt="thumbnails" width="20%"/>
+<img src="app_screenshots/frame_desc_image/030-select folder_frame_desc.png" alt="thumbnails" width="20%"/>
 
-Selected image prompt - modify text prompt as desired, default to low resolution (good enough for  most) but can optionally send higher resolution image.
+<img src="app_screenshots/frame_desc_image/040-select folder_frame_desc.png" alt="thumbnails" width="20%"/>
 
-<img src="app_screenshots/prompt.jpg" alt="image prompt" width="20%"/>
+Selected folder images - blue bordered images have at least one response
 
-Selected image prompt response 1 - can get more than one response each with different prompt and/or resolution
+<img src="app_screenshots/frame_desc_image/090-image gallery_frame_desc.png" alt="thumbnails" width="20%"/>
 
-<img src="app_screenshots/response_1.jpg" alt="image prompt response 1" width="20%"/>
+Selected image prompt - modify text prompt as desired, default to low resolution (good enough for  most) but can optionally send higher resolution image then tap Get Response button
 
-Selected image prompt response 2
+<img src="app_screenshots/frame_desc_image/060-image detail_frame_desc.png" alt="image prompt" width="20%"/>
 
-<img src="app_screenshots/response_2.jpg" alt="image prompt response 2" width="20%"/>
+Selected image prompt response - view response
+
+<img src="app_screenshots/frame_desc_image/070-image detail_frame_desc.png" alt="image prompt response 1" width="20%"/>
+
+Selected image prompt response - copy, share or delete response
+
+<img src="app_screenshots/frame_desc_image/080-image detail_frame_desc.png" alt="image prompt response 2" width="20%"/>
 
 ## Acknowledgments
 
