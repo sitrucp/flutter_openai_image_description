@@ -6,6 +6,8 @@ This is a simple Flutter Android app that uses OpenAI ChatGPT-4-Vision API to ge
 * Get insights from a screenshot of a chart eg line chart of real vs nominal hourly wages
 * Get explanation from a screenshot of a meme visualization eg you've seen elf on a shelf, have you seen ... (vader on a tater)
 
+See YouTube video walk through: https://youtu.be/l9hNuY1DAU4
+
 The app stores the following data in the app's device folder in a JSON file:
 
 * Encrypted API key
